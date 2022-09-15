@@ -1,0 +1,64 @@
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 3rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 1s;
+}
+header{
+    width: 100vw;
+    height: 5em;
+    background-color: rgba(255, 255, 255, 0.192);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(10px);
+}
+
+header li{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+header li a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.active header li a{
+    color: white;
+}
+.active .logo{
+    color: white;
+}
+header li a:hover{
+    letter-spacing: 0.15rem;
+    color: rgb(223, 255, 248);
+}
+.light{
+    margin-right: 5rem;
+}
+.light ion-icon{
+    font-size: 20px;
+    transition: 0.2s;
+    
+}
+.light ion-icon:hover{
+    cursor: pointer;
+    font-size: 25px;
+}
+.light ion-icon:nth-child(2){
+    display: none;
+}
+.actives{
+    color: white;
+}
