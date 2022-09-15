@@ -179,11 +179,11 @@ a{
 }
 #projects.more{
     height: 200vh;
+    width: 100vw;
 }
 .buttons{
     display: flex;
     justify-content: center;
-    
 }
 .more button{
     transition: 0.5s;
