@@ -1,52 +1,38 @@
-@media (max-width: 500px) and (max-height: 500px) {
-    header{
-        width: 100%;
-        font-size: 5px;
-        height: 5rem;
-        gap: 10px;
+@media (max-height: 912px) and (max-width: 748px) {
+    header li{
+        gap: 2rem;
     }
     .logo{
-        font-size: 12px;
+        margin-right: 0;
     }
-    header li a{
-        font-size: 12px;
+    header{
+        gap: 2rem;
+        width: 45rem;
     }
-    header li{
-        gap: 10px;
-    }
-    .contentMain{
-        font-size: 20px;
-
-    }
-    .contentAbout{
-        font-size: 20px;
-    }
-    #about{
+    #main, #about, #projects{
         flex-direction: column;
-        height: 220vh;
-        
-    }
-    
-    .programacao{
-        margin-top: 0rem;
-        height: 5rem;
+        height: 200vh;
+        width: 100vh;
     }
     .partProjects{
         flex-direction: column;
-        gap: 1rem;
+        
     }
-    .more .partProjects2{
+    #projects{
+        height: 200vh;
+    }
+    footer{
+        height: 50rem;
+        width: 748px;
+       
+    }
+    .contentFooter{
         flex-direction: column;
-        gap: 1rem;
+    
     }
-    .more .contentProjects button{
-        margin-top: 38rem;
+    .icon{
+        position: absolute;
+        margin: 0;
+        margin-top: 5rem;
     }
-    .project{
-        width: 10rem;
-        height: 10rem;
-    }
-   .contentProjects button{
-    margin-top: 2rem;
-   }
 }
