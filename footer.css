@@ -11,11 +11,11 @@ footer{
     flex-direction: row;
 }
 .icon{
-    position: absolute;
+    position: static;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    left: 67rem;
+    margin-left: 48rem;
 }
 .icon .part img{
     filter: grayscale(100%) contrast(100%);
