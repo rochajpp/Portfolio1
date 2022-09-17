@@ -3,5 +3,27 @@ footer{
     height: 8.5rem;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(231, 231, 231);
+}
+.contentFooter{
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    left: 67rem;
+}
+.icon .part img{
+    filter: grayscale(100%) contrast(100%);
+    transition: 8s;
+}
+.icon .part img:hover{
+    cursor: pointer;
     color: white;
+    filter: none;
+    transition: 0.2s;
 }

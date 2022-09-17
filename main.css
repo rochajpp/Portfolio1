@@ -20,7 +20,8 @@ html{
     height: 120vh;
     width: 100vw;
     border-bottom: 5px solid black;
-    
+    display: flex;
+    flex-direction: row;
 }
 .contentMain{
     margin-top: 12rem;
@@ -29,229 +30,14 @@ html{
     display: flex;
     flex-direction: column;
 }
-.forlinke, .forgithub{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    height: 4rem;
-    margin-top: 2rem;
-    text-decoration: none;
-    color: #000000;
-    background-color: rgb(180, 180, 180);
-    border: 1px solid #000000;
-    border-radius: 50px;
-    font-size: 1.8rem;
-    transition: 1s;
-}
-.forlinke i, .forgithub i{
-    position: absolute;
-    right: 70rem;
-    font-size: 2.5rem;
-}
-.forgithub:hover{
-    cursor: pointer;
-    background-color: rgb(48, 48, 48);
-}
-.forlinke:hover{
-    cursor: pointer;
-    border: none;
-    background-color: #0a66c2;
-}
-.forlinke:hover  .color{
-    display: none;
-}
-.forgithub:hover .color{
-    display: none;
-}
-.nocolor{
-    display: none;
-    transition: 1s;
-}
-.forlinke:hover .nocolor{
-    display: block;
-}
-.forgithub:hover .nocolor{
-    display: block;
-}
-.programacao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Source Code Pro', monospace;
-    padding: 12rem 8rem;
-    font-size: 18px;
-    margin-top: 5rem;
-    background-color: rgb(182, 182, 243);
-    height: 0rem;
-    border-radius: 20px;
-    cursor: text;
-    border: 1px solid black;
-}
-.line{
-    display: flex;
-    flex-direction: row;
-}
-.red{
-    color: red;
-}
-.tab{
-    margin-left: 2rem;
-}
-.while{
-    color: blue;
-}
-.isAlive{
-    color: green;
-}
-#about{
-    height: 100vh;
-    width: 100vw;
-    border-bottom: 5px solid black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.contentAbout h1{
-    font-size: 50px;
-}
-.descricao{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    font-weight: 700;
-    color:rgb(41, 41, 41);
-}
-#projects{
-    height: 110vh;
-    width: 100vw;
-    position: static;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ilustracao{
+    width: 35rem;
+    margin-top: 10rem;
+    margin-left: 8rem;
 }
 a{
     text-decoration: none;
 }
-.project{
-    border-radius: 20px;
-    width: 22rem;
-    height: 25rem;
-    transition: 0.5s;
-    border: 1px solid black;
-}
-.project h1{
-    text-decoration: none;
-    color: black;
-}
-.project p{
-    font-size: 1rem;
-    font-weight: 1000;
-}
-.contentProjects{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.partProjects{
-    width: 90vw;
-    height: 78vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-}
-.partProjects2{
-    width: 90vw;
-    height: 78vh;
-    margin-top: 2rem;
-    display: none;
-    gap: 5rem;
-    
-}
-.more .partProjects2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.contentProject{
-    color: black;
-    display: flex;
-    height: 10.8rem;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 14rem;
-    backdrop-filter: blur(20px);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.project:hover  .contentProject{
-    display: none;
-}
-#projects button{
-    top: 34rem;
-    height: 3rem;
-    width: 8rem;
-    border: none;
-    color: white;
-    background-color: rgb(20, 20, 20);
-    border-radius: 30px;
-    transition: 0.2s;
-}
-#projects.more{
-    height: 200vh;
-    width: 100vw;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-}
-.more button{
-    transition: 0.5s;
-}
-.more .buttonMenos{      
-    display: block;
-}
-.more .buttonMore{
-    display: none;
-}
-.buttonMenos{
-    display: none;
-}
-#projects button:hover{
-    cursor: pointer;
-    background-color: #303030;
-}
-.contentProjects h1{
-    font-size: 30px;
-}
-.project:hover{
-    width: 24rem;
-    height: 28rem;
-    cursor: pointer;
-}
-.github{
-    margin-top: 2rem;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 800;
-    color: black;
-    letter-spacing: 0.1rem;
-    transition: 0.5s;
-}
-.github:hover{
-    color: white;
-    letter-spacing: 0.2rem;
-}
-
 .active{
     background-color: rgb(28, 38, 51);
     transition: 1s;
@@ -265,12 +51,6 @@ a{
 }
 p{
     transition: 1s;
-}
-.active ion-icon:nth-child(1){
-    display: none;
-}
-.active ion-icon:nth-child(2){
-    display: block;
 }
 h3::after{
     content: "|";

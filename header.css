@@ -62,3 +62,9 @@ header li a:hover{
 .actives{
     color: white;
 }
+.active ion-icon:nth-child(1){
+    display: none;
+}
+.active ion-icon:nth-child(2){
+    display: block;
+}
