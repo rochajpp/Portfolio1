@@ -27,6 +27,7 @@ ScrollReveal({ distance: '20px' });
 //ScrollReveal de #home
 scrl.reveal('.apresentation', {duration: 3000});
 scrl.reveal('.buttonLinke', {duration: 9000})
+scrl.reveal('.buttonGitHub', {duration: 9000})
 //ScrollReveal de #about
 scrl.reveal('.programacao', {duration : 4000, origin: 'right'})
 scrl.reveal('.contentAbout', {duration : 2000, origin: 'left'})
