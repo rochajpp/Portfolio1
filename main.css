@@ -15,6 +15,7 @@ body{
 
 html{
     scroll-behavior: smooth;
+    zoom: 1;
 }
 #main{
     height: 120vh;
@@ -29,6 +30,56 @@ html{
     font-size: 30px;
     display: flex;
     flex-direction: column;
+}
+.forlinke, .forgithub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+    width: 20rem;
+    height: 4rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgb(180, 180, 180);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    transition: 1s;
+}
+.forlinke i, .forgithub i{
+    margin-left: 2rem;
+}
+.forlinke i, .forgithub i{
+    position: static;
+    font-size: 2.5rem;
+}
+.forgithub:hover{
+    cursor: pointer;
+    background-color: rgb(48, 48, 48);
+    color: white; 
+}
+.forlinke:hover{
+    cursor: pointer;
+    border: none;
+    background-color: #0a66c2;
+    color: white;
+}
+.forlinke:hover  .color{
+    display: none;
+}
+.forgithub:hover .color{
+    display: none;
+}
+.nocolor{
+    display: none;
+    transition: 1s;
+}
+.forlinke:hover .nocolor{
+    display: block;
+}
+.forgithub:hover .nocolor{
+    display: block;
 }
 .ilustracao{
     width: 35rem;
