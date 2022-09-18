@@ -23,13 +23,20 @@ html{
     border-bottom: 5px solid black;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .contentMain{
-    margin-top: 12rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
     font-size: 30px;
     display: flex;
     flex-direction: column;
+}
+.ilustracao{
+    margin-bottom: 10rem;
+    width: 35rem;
+    margin-left: 10rem;
 }
 .forlinke, .forgithub{
     display: flex;
@@ -80,11 +87,7 @@ html{
 .forgithub:hover .nocolor{
     display: block;
 }
-.ilustracao{
-    width: 35rem;
-    margin-top: 10rem;
-    margin-left: 8rem;
-}
+
 a{
     text-decoration: none;
 }
