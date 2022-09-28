@@ -43,4 +43,10 @@
         margin: 0;
         margin-top: 5rem;
     }
+    .icon .part img{
+        filter: none;
+    }
+    .light{
+        display: none;
+    }
 }
