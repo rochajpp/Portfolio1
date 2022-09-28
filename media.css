@@ -14,12 +14,20 @@
         height: 200vh;
         width: 100vh;
     }
+
     .partProjects{
         flex-direction: column;
         
     }
+    .github{
+        position: absolute;
+        top: 65rem;
+    }
+    .buttonMore{
+        display: none;
+    }
     #projects{
-        height: 200vh;
+        height: 240vh;
     }
     footer{
         height: 50rem;
