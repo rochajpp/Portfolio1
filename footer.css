@@ -16,7 +16,9 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-left: 48rem;
+}
+.info{
+    width: 30rem;
 }
 .icon .part img{
     filter: grayscale(100%) contrast(100%);
